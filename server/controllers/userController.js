@@ -1,5 +1,4 @@
 const User = require("../models/user");
-const Item = require("../models/user");
 
 
 const createUsers=async (req,res)=>{
