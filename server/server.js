@@ -9,7 +9,7 @@ const cors = require("cors");
 const connectToDb = require("./config/connectToDb");
 const notesController = require("./controllers/notesController");
 const itemsController = require("./controllers/itemsController");
-
+const userController= require("./controllers/userController");
 //Create an expresss app
 const app = express();
 
@@ -33,6 +33,14 @@ app.get("/items/:id", itemsController.fetchItem);
 app.post("/items", itemsController.createItem);
 app.put("/items/:id", itemsController.updateItem);
 app.delete("/items/:id", itemsController.deleteItem);
+
+//login routing
+
+app.post('/users', userController.createUsers );
+app.get('/users', userController.fecthUsers);
+app.get('/users/:id', userController.fecthUser);
+app.put('/users/:id', userController.updateUser);
+app.delete('/users/:id', userController.deleteUser);
 
 //Start the server
 app.listen(process.env.PORT);
