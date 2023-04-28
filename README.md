@@ -13,7 +13,7 @@ TredEco is a start-up company that focuses on recycling collected waste PET-plas
 
 ✨ Group ID - REG_WE_GRP_079
 
-| Student ID | Name | User Profile |
+| Student ID | Name | Github Profile |
 | :-------- | :------- | :------------------------- |
 | IT20096816 | Weerasinghe H. S. R. A. | [@Heshishivani](https://github.com/Heshishivani) |
 | IT20451912 | Alwis D. C. D. | [@DeeghayuAlwis](https://github.com/DeeghayuAlwis) |
