@@ -20,6 +20,22 @@ router.post('/plastic/save',(req,res)=>{
     });
 });
 
+//get details
+router.get('/plastic',(req,res) =>{
+    Sellers.find().exec((err,sellers) =>{
+        if(err){
+            return res.status(400).json({
+                error:err
+            });
+        }
+        return res.status(200).json({
+            success:true,
+            existingDetails:sellers
+        });
+    });
+});
+
+
 
 
 
