@@ -54,6 +54,18 @@ router.put('/plastic/update/:id',(req,res)=>{
     );
 });
 
+//delete details
+router.delete('/plastic/delete/:id',(req,res) =>{
+    Sellers.findByIdAndRemove(req.params.id).exec((err,deletedSeller) =>{
 
+        if(err) return res.status(400).json({
+            message:"Delete Unsuccessfull",err
+        });
+
+        return res.json({
+            message:"Delete Successfull",deletedSeller
+        });
+    });
+});
 
 module.exports = router;
