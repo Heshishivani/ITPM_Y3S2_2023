@@ -35,7 +35,24 @@ router.get('/plastic',(req,res) =>{
     });
 });
 
+//update details
+router.put('/plastic/update/:id',(req,res)=>{
+    Sellers.findByIdAndUpdate(
+        req.params.id,
+        {
+            $set:req.body
+        },
+        (err,seller)=>{
+            if(err){
+                return  res.status(400).json({error:err});
+            }
 
+            return res.status(200).json({
+                success:"Updated Successfully"
+            });
+        }
+    );
+});
 
 
 
