@@ -35,6 +35,39 @@ router.get('/plastic',(req,res) =>{
     });
 });
 
+
+
+//get a specific details
+router.get('/plastic/:id',(req,res) =>{
+  
+    let sellerId = req.params.id;
+
+    Sellers.findById(sellerId,(err,seller) =>{
+        if(err){
+            return res.status(400).json({success:false, err})
+        }
+
+        return res.status(200).json({
+            success:true,
+            seller
+        });
+    });
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //update details
 router.put('/plastic/update/:id',(req,res)=>{
     Sellers.findByIdAndUpdate(
