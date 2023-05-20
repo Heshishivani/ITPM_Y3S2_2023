@@ -124,7 +124,7 @@ export default function Pricing() {
                                         className="text-center mb-5"
                                         variant="h4"
                                     >
-                                        Tred-Echo Fashion
+                                        TredEco Fashion
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={12} lg={12}>

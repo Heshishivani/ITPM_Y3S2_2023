@@ -216,10 +216,10 @@ export default function ViewAllItems() {
                                                 <TableCell colSpan={1}>
                                                     Price
                                                 </TableCell>
-                                                <TableCell>
-                                                    Available Sizes
+                                                <TableCell>Material
+                                                    
                                                 </TableCell>
-                                                <TableCell>Material</TableCell>
+                                                <TableCell>Available Sizes</TableCell>
                                                 <TableCell>Action</TableCell>
                                             </TableRow>
                                         </TableHead>
