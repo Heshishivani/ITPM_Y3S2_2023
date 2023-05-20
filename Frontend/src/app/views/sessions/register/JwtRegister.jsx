@@ -153,7 +153,7 @@ const JwtRegister = () => {
                 <Grid container>
                     <Grid item lg={12} md={12} sm={12} xs={12}>
                         <Typography className="m-5 text-center" variant="h4">
-                            TredEcho User Registration
+                            TredEco User Registration
                         </Typography>
                     </Grid>
                     <Grid item lg={5} md={5} sm={5} xs={12}>
