@@ -45,11 +45,6 @@ Assignment 02 - [Plagiarism Report](https://drive.google.com/file/d/1sdSOFefkQ5N
 
 Assignment 02 - [Submission of Paper](https://drive.google.com/file/d/1QFoqnNwRJP8IUuvAvsdCVoBGf5DKwpxs/view?usp=share_link)
 
-Assignment 02 - [Acceptance Letter of IJRTE](https://drive.google.com/file/d/1A00ih5HZmWMkuEGCoum1coxK1TeUcz2T/view?usp=share_link)
-
-Assignment 02 - [Review Report of IJRTE](https://drive.google.com/file/d/1DbmCm8x6OKUIPZ1AmQm9IjIa_oVVk1E0/view?usp=share_link)
-  
-Assignment 02 - [Indexing of IJRTE](https://drive.google.com/drive/folders/1XHSIEpYh4jFSSDX4X0J7oNGJ59NRig4e?usp=share_link)
 
 ## 👨‍💻 *Run Locally*
 
