@@ -44,7 +44,7 @@ const Footer = () => {
                         <span className="m-auto"></span>
                         <p className="m-0">
                             Design and Developed by{' '}
-                            ©TredEcho Team
+                            ©REG_WE_GRP_079
                         </p>
                     </div>
                 </Toolbar>
