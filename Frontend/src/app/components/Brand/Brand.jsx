@@ -31,7 +31,7 @@ const Brand = ({ children }) => {
                         [classes.hideOnCompact]: mode === 'compact',
                     })}
                 >
-                    TredEcho
+                    TredEco
                 </span>
             </div>
             <div
