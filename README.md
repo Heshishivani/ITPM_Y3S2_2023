@@ -67,7 +67,7 @@ Run this command in the Initiation
 Start the Server
 
 ```bash
-  npm run dev
+  npm start
 ```
 
 Go to the Frontend
