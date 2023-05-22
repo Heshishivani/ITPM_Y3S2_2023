@@ -1,6 +1,6 @@
 # 🎓 ITPM_Y3S2_2023FEB
 
-<img src="https://github.com/Heshishivani/ITPM_Y3S2_2023/assets/86800038/ab63c27e-15ff-4018-94e7-818a86aafedb" style="width:200px"/>
+<img src="https://github.com/Heshishivani/ITPM_Y3S2_2023/assets/86800038/c735bbb7-a526-4f8a-8978-51faa3651954" style="width:200px"/>
 
 ## 🍃 *TredEco Website*
 
